@@ -37,4 +37,13 @@
         margin-left: 10px;
         margin-bottom: 20px;
     }
+    /* bannar responsive ends here */
+    .grid-containar{
+        grid-template-columns: 1fr;
+        
+    }
+    .product-icon{
+        font-size: 15px;
+       
+    }
 }
