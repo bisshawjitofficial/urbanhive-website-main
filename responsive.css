@@ -46,4 +46,11 @@
         font-size: 15px;
        
     }
+    .grid-containar{
+        
+        margin: 10px;
+     }
+     h1{
+        font-size: 20px;
+     }
 }
