@@ -1,0 +1,40 @@
+@media screen and (max-width:400px) {
+    .nav-container{
+        flex-direction: column;
+    
+    }
+    .nav-item-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item-container a{
+       margin-top: 20px;
+    }
+    .nav-item-container .login-btn{
+       width: 100%;
+       margin-bottom: 10px;
+    }
+    /* nav responsive ends here */
+    .bannar-container{
+        
+       flex-direction: column;
+    }
+    .bannar-text,.bannar-img{
+        width: 100%;
+        
+    }
+    .bannar-text h1{
+        font-size: 30px;
+    }
+    .bannar-text p{
+        font-size: 25px;
+    }
+    .fa-brands{
+        font-size: 40px;
+    }
+    .bannar-button{
+        padding: 10px 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+}
