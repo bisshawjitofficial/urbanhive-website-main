@@ -178,3 +178,65 @@ body{
     .product-icon-color-3{
         background-color: #e893e8;
     }
+
+    /* bannar degine ends here */
+
+    .discount-scetion{
+        background-color: #9376e0;
+        min-height: 500px;
+        padding: 20px 0;
+    }
+    .discount-containar{
+        max-width: 1400px;
+        margin: 0 auto;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .discount-img{
+        width: 50%;
+       
+        position: relative;
+    }
+    .discount-img img{
+        width: 70%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .discount-text{
+        width: 50%;
+
+    }
+    .discount-head{
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .discount-discription{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .discount-number{
+        background-color: #e6e9eb;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        position: absolute;
+        top: 25px;
+        left: 65%;
+
+    }
+    .discount-button{
+        background-color: transparent;
+        padding: 10px 20px;
+        border: 3px solid white ;
+        border-radius: 5px;
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
