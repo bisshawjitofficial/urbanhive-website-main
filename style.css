@@ -277,3 +277,42 @@ body{
         text-align: center;
         
     }
+
+    /* footer section start here  */
+    .footer-section{
+        background-color: #9376e0;
+        min-height: 300px;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+    .footer-containar{
+  
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: 50px auto;
+       
+    
+    }
+    .footer-containar img{
+        height: 50px;
+        width: 50px;
+    }
+    .footer-copyright{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: -30px;
+    }
+    .footer-containar img{
+        width: 100px;
+        object-fit: cover;
+    
+    }
+    .footer-containar p{
+        font-size: 30px;
+        margin-left: -10px;
+        
+    }
